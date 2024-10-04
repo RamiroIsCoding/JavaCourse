@@ -15,16 +15,15 @@
  *******************************************************************************/
 package com.zebrunner.carina.demo.utils;
 
-import java.io.IOException;
-import java.io.Reader;
-
+import com.zebrunner.carina.demo.db.mappers.UserMapper;
+import com.zebrunner.carina.demo.db.mappers.UserPreferenceMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import com.zebrunner.carina.demo.db.mappers.UserMapper;
-import com.zebrunner.carina.demo.db.mappers.UserPreferenceMapper;
+import java.io.IOException;
+import java.io.Reader;
 
 public class ConnectionFactory {
 
