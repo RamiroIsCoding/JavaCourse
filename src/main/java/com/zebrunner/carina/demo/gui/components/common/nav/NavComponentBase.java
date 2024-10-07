@@ -1,8 +1,5 @@
 package com.zebrunner.carina.demo.gui.components.common.nav;
 
-import com.zebrunner.carina.demo.gui.Pages.Android.HomePage;
-import com.zebrunner.carina.demo.gui.Pages.Android.NewsPage;
-import com.zebrunner.carina.demo.gui.Pages.Android.VideosPage;
 import com.zebrunner.carina.demo.gui.Pages.common.HomePageBase;
 import com.zebrunner.carina.demo.gui.Pages.common.NewsPageBase;
 import com.zebrunner.carina.demo.gui.Pages.common.ReviewsPageBase;

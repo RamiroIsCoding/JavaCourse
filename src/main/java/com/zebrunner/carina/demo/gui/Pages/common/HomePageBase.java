@@ -1,6 +1,7 @@
 package com.zebrunner.carina.demo.gui.Pages.common;
 
 import com.zebrunner.carina.demo.gui.components.common.nav.NavComponentBase;
+import com.zebrunner.carina.demo.gui.components.common.brands.BrandMenuComponentBase;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.decorator.PageOpeningStrategy;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
@@ -17,6 +18,7 @@ public abstract class HomePageBase extends AbstractPage {
         setPageOpeningStrategy(PageOpeningStrategy.BY_URL);
     }
 
+    public abstract BrandMenuComponentBase getBrandMenuComponent();
     public abstract NavComponentBase getNavComponent();
 
 }

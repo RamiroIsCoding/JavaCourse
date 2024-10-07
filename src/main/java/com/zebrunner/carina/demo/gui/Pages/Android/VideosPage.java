@@ -1,6 +1,5 @@
 package com.zebrunner.carina.demo.gui.Pages.Android;
 
-import com.zebrunner.carina.demo.gui.Pages.common.HomePageBase;
 import com.zebrunner.carina.demo.gui.Pages.common.VideosPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
